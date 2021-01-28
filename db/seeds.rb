@@ -11,6 +11,7 @@ Restaurant.destroy_all
 
 puts 'Creating restaurants...'
 restaurants_attributes = [
+  { name: 'St. John Bread & Wine', address: 'Shoreditch, London', category: 'british', phone_number: '34950093402394' },
   { name: 'Dragon', address: 'Chinatown', category: 'chinese', phone_number: '34950093402394' },
   { name: 'Pizza East', address: 'Shoreditch', category: 'italian', phone_number: '312121341' },
   { name: 'Tokyo Ramen', address: 'Brixton', category: 'japanese', phone_number: '349233493402394' },
